@@ -3,41 +3,65 @@
     style="@style/WH_match_parent"
     android:background="@color/bg_home"
     android:gravity="center"
-    android:orientation="horizontal" >
-    
-    <LinearLayout 
-        style="@style/WH_wrap_content"
-        android:layout_weight="1"
-        android:gravity="center_horizontal"
-        android:orientation="vertical">
-        <ImageView 
-            style="@style/WH_wrap_content"
-            android:background="@drawable/kehushu"/>
-        <ImageView 
-            style="@style/WH_wrap_content"
-            android:layout_marginTop="20dp"
-            android:background="@drawable/cidanshu"/>
-        <ImageView 
-            style="@style/WH_wrap_content"
-            android:layout_marginTop="20dp"
-            android:background="@drawable/churujin"/>
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.1"
+        android:orientation="horizontal" >
     </LinearLayout>
 
-    <LinearLayout 
-        style="@style/WH_wrap_content"
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
         android:layout_weight="1"
-        android:gravity="center_horizontal"
-        android:orientation="vertical">
-        <ImageView 
+        android:orientation="horizontal" >
+
+        <LinearLayout
             style="@style/WH_wrap_content"
-            android:background="@drawable/zuodanshu"/>
-        <ImageView 
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                style="@style/WH_wrap_content_match_parent"
+                android:background="@drawable/kehushu" />
+
+            <RelativeLayout
+                style="@style/WH_wrap_content_match_parent"
+                android:background="@drawable/cidanshu" />
+
+            <RelativeLayout
+                style="@style/WH_wrap_content_match_parent"
+                android:background="@drawable/churujin" />
+        </LinearLayout>
+
+        <LinearLayout
             style="@style/WH_wrap_content"
-            android:layout_marginTop="20dp"
-            android:background="@drawable/zijing"/>
-        <ImageView 
-            style="@style/WH_wrap_content"
-            android:layout_marginTop="20dp"
-            android:background="@drawable/dakehu"/>
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                style="@style/WH_wrap_content_match_parent"
+                android:background="@drawable/zuodanshu" />
+
+            <RelativeLayout
+                style="@style/WH_wrap_content_match_parent"
+                android:background="@drawable/zijing" />
+
+            <RelativeLayout
+                style="@style/WH_wrap_content_match_parent"
+                android:background="@drawable/dakehu" />
+        </LinearLayout>
     </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.3"
+        android:orientation="horizontal" >
+    </LinearLayout>
+
 </LinearLayout>
