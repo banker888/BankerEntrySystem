@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <!-- 白色 -->
+    <color name="white">#ffffff</color>
+    
+    <!-- 黑色 -->
+    <color name="black">#000000</color>
+    
+    <!-- 主页背景 -->
+    <color name="bg_home">#253b60</color>
+    
+    <!-- 主页顶部跳出的消息条背景 -->
+    <color name="bg_infoBar">#7b9ed8</color>
+    
+</resources>
