@@ -14,22 +14,6 @@ public abstract class AppBaseAdapter<T> extends BaseAdapter {
 	public AppBaseAdapter(Context context) {
 		mContext = context;
 	}
-
-	/** 要显示的条目数 **/
-	@Override
-	public int getCount() {
-		return mDatasList.size();
-	}
-	/** 当前位置上item里的所有数据 **/
-	@Override
-	public Object getItem(int position) {
-		return mDatasList.get(position);
-	}
-	/** 获得当前条目的id **/
-	@Override
-	public long getItemId(int position) {
-		return position;
-	}
 	
 	/** 初使化数据 **/
 	public void initDatas(List<T> datasList) {
@@ -46,6 +30,22 @@ public abstract class AppBaseAdapter<T> extends BaseAdapter {
 				notifyDataSetChanged();
 			}
 		}
+	}
+
+	/** 要显示的条目数 **/
+	@Override
+	public int getCount() {
+		return mDatasList.size();
+	}
+	/** 当前位置上item里的所有数据 **/
+	@Override
+	public Object getItem(int position) {
+		return mDatasList.get(position);
+	}
+	/** 获得当前条目的id **/
+	@Override
+	public long getItemId(int position) {
+		return position;
 	}
 
 }

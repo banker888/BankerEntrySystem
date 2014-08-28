@@ -6,5 +6,14 @@
     <string name="hello_world">Hello world!</string>
     
     <string name="EntrySystem">报单系统</string>
-
+    
+    <!-- 模块 -->
+    <string name="appModule_customerAmount">客户数</string>
+    <string name="appModule_business">做单数</string>
+    <string name="appModule_existingBusiness">持单数</string>
+    <string name="appModule_fund">资金</string>
+	<string name="appModule_paymentProceeds">出入金</string>
+	<string name="appModule_bigCustomer">大客户</string>
+	
+	
 </resources>

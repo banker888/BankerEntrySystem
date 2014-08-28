@@ -60,6 +60,10 @@ public class BaseActivity extends Activity {
 		}
 		mToast.show();
 	}
-
+	
+	/** 使用String资源文件 **/
+	protected String useStringTypeResource(int stringResId) {
+		return getResources().getString(stringResId).toString();
+	}
 	
 }
