@@ -63,6 +63,13 @@
         android:layout_height="0dp"
         android:layout_weight="0.3"
         android:orientation="horizontal" >
+
+        <com.daimajia.slider.library.SliderLayout
+            style="@style/WH_match_parent"
+            android:id="@+id/sliderlayout"
+             >
+        </com.daimajia.slider.library.SliderLayout>
+        
     </LinearLayout>
 
 </LinearLayout>
