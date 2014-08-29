@@ -50,8 +50,8 @@ public class BaseActivity extends Activity {
 	}
 	
 	/** 显示Toast **/
-	protected void showToast(int resId) {
-		String text = String.valueOf(resId).toString();
+	protected void showToast(int stringResId) {
+		String text = useStringTypeResource(stringResId);
 		if(null != mToast) {
 			mToast.setText(text);
 			mToast.setDuration(Toast.LENGTH_SHORT);

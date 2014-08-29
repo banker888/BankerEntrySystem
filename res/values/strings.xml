@@ -15,5 +15,8 @@
 	<string name="appModule_paymentProceeds">出入金</string>
 	<string name="appModule_bigCustomer">大客户</string>
 	
+	<string name="info">信息</string>
+	<string name="setting">设置</string>
+	
 	
 </resources>

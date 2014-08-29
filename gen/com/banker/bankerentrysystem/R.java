@@ -35,31 +35,47 @@ public final class R {
         public static final int activity_vertical_margin=0x7f050001;
     }
     public static final class drawable {
-        public static final int bg_top_bar=0x7f020000;
-        public static final int btn_top_info=0x7f020001;
-        public static final int btn_top_setting=0x7f020002;
-        public static final int churujin=0x7f020003;
-        public static final int cidanshu=0x7f020004;
-        public static final int dakehu=0x7f020005;
-        public static final int ic_launcher=0x7f020006;
-        public static final int kehushu=0x7f020007;
-        public static final int zijing=0x7f020008;
-        public static final int zuodanshu=0x7f020009;
+        public static final int bg_down_menu=0x7f020000;
+        public static final int bg_top_bar=0x7f020001;
+        public static final int btn_top_info=0x7f020002;
+        public static final int btn_top_setting=0x7f020003;
+        public static final int churujin=0x7f020004;
+        public static final int cidanshu=0x7f020005;
+        public static final int dakehu=0x7f020006;
+        public static final int down_arrow=0x7f020007;
+        public static final int ic_launcher=0x7f020008;
+        public static final int kehushu=0x7f020009;
+        public static final int mm_title_btn_focused=0x7f02000a;
+        public static final int mm_title_btn_normal=0x7f02000b;
+        public static final int mm_title_btn_pressed=0x7f02000c;
+        public static final int mm_title_functionframe_line=0x7f02000d;
+        public static final int mm_title_functionframe_pressed=0x7f02000e;
+        public static final int title_button=0x7f02000f;
+        public static final int title_function_bg=0x7f020010;
+        public static final int title_list_selector=0x7f020011;
+        public static final int zijing=0x7f020012;
+        public static final int zuodanshu=0x7f020013;
     }
     public static final class id {
-        public static final int action_settings=0x7f090006;
-        public static final int btn=0x7f090000;
-        public static final int framework_center=0x7f090002;
-        public static final int framework_topBar=0x7f090001;
-        public static final int imgB_topLeft=0x7f090003;
-        public static final int imgB_topRight=0x7f090004;
-        public static final int txtV_topTitle=0x7f090005;
+        public static final int action_settings=0x7f09000a;
+        public static final int btn=0x7f090001;
+        public static final int downMenu_title_list=0x7f090004;
+        public static final int framework_center=0x7f090003;
+        public static final int framework_topBar=0x7f090002;
+        public static final int imgB_downArrow=0x7f090009;
+        public static final int imgB_topLeft=0x7f090005;
+        public static final int imgB_topRight=0x7f090006;
+        public static final int kehushu=0x7f090000;
+        public static final int lay_centerDown=0x7f090007;
+        public static final int txtV_topTitle=0x7f090008;
     }
     public static final class layout {
-        public static final int activity_home=0x7f030000;
-        public static final int activity_main=0x7f030001;
-        public static final int framework=0x7f030002;
-        public static final int top_bar=0x7f030003;
+        public static final int activity_cutsomer_amount=0x7f030000;
+        public static final int activity_home=0x7f030001;
+        public static final int activity_main=0x7f030002;
+        public static final int framework=0x7f030003;
+        public static final int title_popup=0x7f030004;
+        public static final int top_bar=0x7f030005;
     }
     public static final class menu {
         public static final int main=0x7f080000;
@@ -69,12 +85,16 @@ public final class R {
         public static final int action_settings=0x7f060001;
         public static final int appModule_bigCustomer=0x7f060009;
         public static final int appModule_business=0x7f060005;
+        /**  模块 
+         */
         public static final int appModule_customerAmount=0x7f060004;
         public static final int appModule_existingBusiness=0x7f060006;
         public static final int appModule_fund=0x7f060007;
         public static final int appModule_paymentProceeds=0x7f060008;
         public static final int app_name=0x7f060000;
         public static final int hello_world=0x7f060002;
+        public static final int info=0x7f06000a;
+        public static final int setting=0x7f06000b;
     }
     public static final class style {
         /** 

@@ -25,6 +25,7 @@
             android:orientation="vertical" >
 
             <RelativeLayout
+                android:id="@+id/kehushu"
                 style="@style/WH_wrap_content_match_parent"
                 android:background="@drawable/kehushu" />
 
